@@ -1,0 +1,23 @@
+baseURL = "https://documenter.ch/"
+languageCode = "fr-ch"
+title = "documenter.ch"
+
+# Répertoire pour GitHub Pages
+publishDir = "docs"
+
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
+
+
+[markup.goldmark.parser]
+autoHeadingIDType = "github-ascii"
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+noClasses = true
+style = "monokai"
+
+[minify]
+minifyOutput = true
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
