@@ -2,4 +2,6 @@
 title: documenter.ch
 ---
 
-Un site sur la documentation technique pour tester GitHub Pages.
+Projet d'un thème Hugo minimal pour un site hiérarchique à visée documentaire.
+
+Développement prévu durant l'été 2022.
